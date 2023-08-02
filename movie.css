@@ -1,0 +1,101 @@
+/* Reset some default styles */
+body, h1, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 100%; /* Adjusted for responsiveness */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #334756; /* Attractive background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 0;
+    color: #ffffff; /* Text color for the header */
+    font-size: 32px; /* Increased font size for better visibility */
+    background-color: #334756; /* Background color for the header */
+    margin-bottom: 20px; /* Added spacing below the header */
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column; /* Adjusted for smaller screens */
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-bottom: 20px; /* Added spacing between cards */
+}
+
+.card-img-top {
+    width: 100%; /* Adjusted for responsiveness */
+    height: auto; /* Ensures aspect ratio is maintained */
+    border-radius: 5px 5px 0 0;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 20px; /* Adjusted font size for smaller screens */
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+/* Add this to your existing stylesheet */
+
+/* Styling for the "GO BACK" link */
+a {
+/*    display: inline-block;*/
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #334756; /* Background color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #49687d; /* Darker background color on hover */
+    color: #ffffff; /* Text color on hover */
+}
+
+@media (min-width: 768px) {
+    .card {
+        flex-direction: row; /* Reset to original direction on larger screens */
+    }
+
+    .card-img-top {
+        width: 40%; /* Reset to original width on larger screens */
+        height: 100%; /* Reset to original height */
+    }
+
+    h1 {
+        font-size: 32px; /* Adjusted font size for larger screens */
+    }
+
+    .card-title {
+        font-size: 28px; /* Adjusted font size for larger screens */
+    }
+
+    .card-text {
+        font-size: 18px; /* Adjusted font size for larger screens */
+    }
+}
