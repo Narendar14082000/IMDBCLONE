@@ -12,8 +12,9 @@
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
 - [How to Use](#how-to-use)
+- [Demo](#Demo)
 - [Contributors](#contributors)
-- [License](#license)
+
 
 ## Introduction
 
@@ -59,10 +60,12 @@ Welcome to the Mini IMDb Clone! This web application allows users to explore mov
 4. **Add to Favorites:** Feel free to add movies to your favorites list using the "Add to Favorites" button.
 5. **Manage Favorites:** Access the "My Favorite Movies" page from the navigation bar to view and manage your favorite movies. You can also remove movies from your favorites list.
 
+## Demo
+
+- [IMDB_CLONE]()
+
 ## Contributors
 
-- [narendar](https://github.com/your-username)
+- [Paindla Narendar Reddy](https://github.com/akashpadampalle/imdb-clone/tree/main)
 
-## License
 
-This project is licensed under the [MIT License](LICENSE).
