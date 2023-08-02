@@ -1,6 +1,6 @@
-# Mini IMDb Clone
+# Mini IMDB Clone App
 
-![App Screenshot](screenshot.png)
+![App Screenshot](appscreenshot.png)
 
 ## Table of Contents
 
