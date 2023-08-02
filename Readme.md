@@ -62,7 +62,7 @@ Welcome to the Mini IMDb Clone! This web application allows users to explore mov
 
 ## Demo
 
-- [IMDB_CLONE]()
+- [IMDB_CLONE](https://narendar14082000.github.io/IMDBCLONE/index.html)
 
 ## Contributors
 
